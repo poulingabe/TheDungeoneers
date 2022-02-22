@@ -4,14 +4,31 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public enum ItemType
+    public string type; 
+    public int id;
+    public string description; 
+    public Sprite icon; 
+    public bool pickedUp;
+    public bool equiped;
+
+    public void Update()
     {
-        HealthPotion,
-        Gold, 
-        Sword, 
+       // if(equiped)
+       
     }
 
-    public ItemType itemType; 
-    public int amount; 
-    
+    public void ItemUssge()
+    {
+        //healpotion
+        if(type == "HealthPotion")
+        {
+            //call healing i guess
+        }
+        //weapon
+
+        if(type == "Weapon")
+        {
+            //equiped == true;
+        }
+    }
 }

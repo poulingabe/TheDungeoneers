@@ -1,5 +1,5 @@
 # The_Dungeoneers
-Project: Levi's Fungeon
+Project: Levi's Fungeon \n
 Requirements:
 Unity to run current in-development releases
 Description:
